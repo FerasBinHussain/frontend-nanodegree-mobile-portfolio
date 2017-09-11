@@ -54,6 +54,12 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
+### Instructions
+
+* To view the website download all the files and open index.html in your browser and pizza.html.
+* Or open it from the link below 
+
+
 
 ### To run the<a href="https://ferasbinhussain.000webhostapp.com/wesiteOptimizationProject/index.html"> website</a>
  

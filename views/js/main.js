@@ -536,8 +536,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
 
-  // tring to fill browser window
-  var pizzaNum = (window.innerHeight / 70) + (window.innerWidth / 75);
+  // calculations
+  var pizzaNum = (cols * (window.innerHeight/s ) );
   for (var i = 0; i < pizzaNum; i++) {
   var elem = document.createElement('img');
     elem.className = 'mover';
