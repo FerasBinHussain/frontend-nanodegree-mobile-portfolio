@@ -65,7 +65,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * Compress images
 * Move the Google Analytics to render blocking and the html parsing improved
 
-### By doing this the index achived 93 in desktop and 91 in mobail.
+### By doing this the index achived 93 in desktop and 91 in mobile.
 
 ## Optimize the view/main.js 
 * I replaced the quereSelctor with getElementById and getElementByClassNam 
