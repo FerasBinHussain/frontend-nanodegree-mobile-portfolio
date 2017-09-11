@@ -376,7 +376,7 @@ var pizzaElementGenerator = function(i) {
   pizzaContainer.style.width = "33.33%";
   pizzaContainer.style.height = "325px";
   pizzaContainer.id = "pizza" + i;                // gives each pizza element a unique id
-  pizzaImageContainer.classList.add("col-md-6")   //fixet by using the "col-md-6"
+  pizzaImageContainer.classList.add("col-md-6");   //fixet by using the "col-md-6"
 
   pizzaImage.src = "images/pizza.png";
   pizzaImage.classList.add("img-responsive");
@@ -460,8 +460,8 @@ var resizePizzas = function(size) {
     }
 
     // new for loop to reduce the painting and render blocking  
-    for (var i = 0; i < pizzaContainerLength; i++) {
-     randomPizzaContainer[i].style.width = newwidth[i];
+    for (var j = 0; i < pizzaContainerLength; j++) {
+     randomPizzaContainer[j].style.width = newwidth[j];
     }
   }
 
