@@ -53,3 +53,24 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+### To run the<a href="https://ferasbinhussain.000webhostapp.com/wesiteOptimizationProject/index.html"> website</a>
+ 
+
+## Optimize the index.html 
+* I made the style internal to render blocking
+* Adding media print to prevent blocking 
+* Making the google-analytics async render blocking
+* Compress images
+* Move the Google Analytics to render blocking and the html parsing improved
+
+### By doing this the index achived 93 in desktop and 91 in mobail.
+
+## Optimize the view/main.js 
+* I replaced the quereSelctor with getElementById and getElementByClassNam 
+* I moved some loops to render blocking 
+* I did some calculations to fill the browser window   
+
+
+
