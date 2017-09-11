@@ -460,7 +460,7 @@ var resizePizzas = function(size) {
     }
 
     // new for loop to reduce the painting and render blocking  
-    for (var j = 0; i < pizzaContainerLength; j++) {
+    for (var j = 0; j < pizzaContainerLength; j++) {
      randomPizzaContainer[j].style.width = newwidth[j];
     }
   }
